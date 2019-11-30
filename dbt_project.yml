@@ -20,3 +20,9 @@ models:
       staging:
         materialized: view
         tags: ["staging", "hourly"]
+
+
+
+      # docker run --rm    --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 -v c:/docker/volumes/postgres:/var/lib/postgresql/data  postgres 
+
+      # C:\OneDrive\Projects\project-8-docker-and-postgres\Commands.txt
